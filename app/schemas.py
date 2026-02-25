@@ -6,6 +6,7 @@ class GroupCreate(BaseModel):
 
 class GroupResponse(BaseModel):
     id: int
+    name: str
 
     class Config:
         from_attribute = True
